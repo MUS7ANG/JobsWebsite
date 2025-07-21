@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ $slot }}</title>
+    <title>Salikh</title>
     @vite(['../resources/css/app.css', '../resources/js/app.js'])
 </head>
 <body class="bg-black text-white mx-5">
@@ -24,9 +24,26 @@
                 <a href="/">Careers</a>
             </div>
 
-            <div>
-                <a href="/">Post a job</a>
-            </div>
+            @guest
+                <div class="space-x-6 font-bold">
+                    <a href="/login">Log In</a>
+                    <a href="/register">Register</a>
+                </div>
+            @endguest
+
+            @auth
+                <div class="space-x-6 font-bold flex">
+
+                    <a href="/jobs/create">Post a job</a>
+                    <form method="POST" action="/logout">
+                        @csrf
+                        @method('DElETE')
+
+                        <x-form.button>Log Out</x-form.button>
+                    </form>
+                </div>
+            @endauth
+
         </nav>
     </div>
 

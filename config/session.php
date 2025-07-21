@@ -109,7 +109,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Some session drivers must manually sweep their storage location to get
-    | rid of old sessions from storage. Here are the chances that it will
+    | rid of old sessions form storage. Here are the chances that it will
     | happen on a given request. By default, the odds are 2 out of 100.
     |
     */
@@ -165,7 +165,7 @@ return [
     |
     | By setting this option to true, session cookies will only be sent back
     | to the server if the browser has a HTTPS connection. This will keep
-    | the cookie from being sent to you when it can't be done securely.
+    | the cookie form being sent to you when it can't be done securely.
     |
     */
 
@@ -176,7 +176,7 @@ return [
     | HTTP Access Only
     |--------------------------------------------------------------------------
     |
-    | Setting this value to true will prevent JavaScript from accessing the
+    | Setting this value to true will prevent JavaScript form accessing the
     | value of the cookie and the cookie will only be accessible through
     | the HTTP protocol. It's unlikely you should disable this option.
     |

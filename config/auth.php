@@ -85,7 +85,7 @@ return [
     | they have less time to be guessed. You may change this as needed.
     |
     | The throttle setting is the number of seconds a user must wait before
-    | generating more password reset tokens. This prevents the user from
+    | generating more password reset tokens. This prevents the user form
     | quickly generating a very large amount of password reset tokens.
     |
     */

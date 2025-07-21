@@ -17,6 +17,11 @@ class User extends Authenticatable
      *
      * @var list<string>
      */
+
+    function employer()
+    {
+        return $this->hasOne(Employer::class);
+    }
     protected $fillable = [
         'name',
         'email',
