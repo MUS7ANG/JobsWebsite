@@ -2,7 +2,7 @@
 
 ![Laravel](https://img.shields.io/badge/Laravel-11.x-red?logo=laravel)
 ![PHP](https://img.shields.io/badge/PHP-8.1+-blue?logo=php)
-![Demo of Laravel Blog](app/public/video.gif)
+![Demo of Laravel Blog](public/video.gif)!
 
 Welcome to **Laravel Jobs Website**, a modern web application built with Laravel 11, inspired by the "30 Days to Learn Laravel 11" series (Episode 30) from Laracasts. This project is a fully functional blog or CMS with user authentication, CRUD operations, and a sleek, responsive design. Perfect for learning Laravel or deploying a lightweight blog! 📝
 
@@ -116,5 +116,5 @@ Please ensure your code follows Laravel's coding standards and includes tests wh
 
 ## 🙏 Acknowledgments
 
-- Inspired by [Laracasts: 30 Days to Learn Laravel 11](https://laracasts.com/series/30-days-to-learn-laravel-11/episodes/30).
+- Inspired by [Laracasts: 30 Days to Learn Laravel 11](https://laracasts.com/series/30-days-to-learn-laravel-11).
 - Thanks to the Laravel and Tailwind CSS communities for their amazing tools!
